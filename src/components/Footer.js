@@ -10,7 +10,7 @@ const Footer = () => {
                 <p>To Top</p>
             </a>
             <img src={logo} className='footerLogo' alt='logo'/>
-            <p>© 2021 Tom Moyse</p>
+            <p>© 2023 Tom Moyse</p>
         </footer>
     )
 }

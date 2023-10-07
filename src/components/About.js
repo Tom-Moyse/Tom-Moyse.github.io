@@ -13,14 +13,14 @@ const About = ({ showAbout, toggleAbout, toggleAnimation, showAnimation }) => {
             <div className={`leftAbout ${showAnimation ? 'leftAnimateOut' : 'leftAnimateIn'}`}>
                 <div className="aboutContent">
                     <h2>About Me</h2>
-                    <h3>Computer Science BSc Student</h3>
+                    <h3>Computer Science MEng Student</h3>
                     <p>
-                        I'm Tom Moyse a 19 year old <strong>Computer Science BSc</strong> student currently studying at the University of Warwick.
+                        I'm Tom Moyse a 21 year old <strong>Computer Science MEng</strong> student currently studying at the University of Warwick.
                         I love learning new things be it technologies or new hobbies.<br />
-                        Currently I'm focusing on improving my web and game development skills using <strong>React</strong> and <strong>Unity</strong> respectively.<br />
+                        Currently I'm focusing on improving my ML skills using <strong>PyTorch</strong><br />
                         Outside of technical skills I am currently focused on learning Piano and Japanese.
                         When not focused on learning I enjoy playing video games, badminton and climbing.<br /><br />
-                        Currently I am looking for <strong>placement year</strong> opportunities - feel free to <strong>contact me</strong> if you have any offers in this regard.
+                        Currently I am looking for <strong>graduate roles</strong> - feel free to <strong>contact me</strong> if you have any offers in this regard.
                     </p>
                 </div> 
             </div>
@@ -36,7 +36,7 @@ const About = ({ showAbout, toggleAbout, toggleAnimation, showAnimation }) => {
                                 <figcaption>Email</figcaption>
                             </figure>
                         </a></li>
-                        <li><a href="https://linkedin.com/in/tom-moyse-88765a144">
+                        <li><a href="https://linkedin.com/in/tmoyse">
                             <figure className='iconBox'>
                                 <FaLinkedin size={'30%'}/>
                                 <figcaption>LinkedIn</figcaption>
